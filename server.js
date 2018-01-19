@@ -58,6 +58,12 @@ app.get('/about', (req, res) => {
     });
 });
 
+app.get('/projects', (req, res) => {
+    res.render('projects.hbs', {
+        pageTitle: 'Project Page'
+    });
+});
+
 app.get('/mittens', (req, res) => {
     res.send('<h1>Mittens are lovely</h1>')
 });
