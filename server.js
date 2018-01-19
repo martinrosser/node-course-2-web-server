@@ -44,7 +44,7 @@ app.get('/', (req, res) => {
     // });
     res.render('home.hbs', {
         pageTitle: 'Home Sweet Home',
-        welcomeMessage: "please fuck off!!!!!",
+        welcomeMessage: "please go away!!!!",
         mittens: 'hhhhhhhhhhh'
     });
 
@@ -63,7 +63,7 @@ app.get('/mittens', (req, res) => {
 app.get('/bad', (req, res) => {
     //res.send('<h1>Ponies</h1>')
     res.send({
-        errorMessage: 'Fucked'
+        errorMessage: 'Oh'
     });
 });
 
